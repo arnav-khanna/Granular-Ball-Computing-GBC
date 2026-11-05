@@ -16,39 +16,39 @@ An incremental roadmap for implementing, visualising, and evaluating Granular Ba
 
 ## Phase 2 — Basic Granular Ball Computing Implementation
 
-- [ ] Define a basic Granular Ball data structure.
-  - [ ] Store the samples belonging to each ball.
-  - [ ] Calculate the centre of each ball.
-  - [ ] Calculate the radius of each ball.
-  - [ ] Track the class distribution within each ball.
-  - [ ] Calculate ball purity.
+- [X] Define a basic Granular Ball data structure.
+  - [X] Store the samples belonging to each ball.
+  - [X] Calculate the centre of each ball.
+  - [X] Calculate the radius of each ball.
+  - [X] Track the class distribution within each ball.
+  - [X] Calculate ball purity.
 
-- [ ] Implement initial granular ball generation.
-  - [ ] Initialise one large granular ball containing the entire dataset.
-  - [ ] Implement a function to split a granular ball into smaller balls.
-  - [ ] Use Scikit-learn's built-in K-Means clustering for splitting.
-  - [ ] Assign samples to their respective child balls.
+- [X] Implement initial granular ball generation.
+  - [X] Initialise one large granular ball containing the entire dataset.
+  - [X] Implement a function to split a granular ball into smaller balls.
+  - [X] Use Scikit-learn's built-in K-Means clustering for splitting.
+  - [X] Assign samples to their respective child balls.
 
 - [ ] Implement recursive granular ball splitting.
-  - [ ] Calculate the purity of each ball.
-  - [ ] Split balls whose purity is below 0.95.
-  - [ ] Continue splitting until the purity threshold is satisfied.
-  - [ ] Handle edge cases where further splitting is not possible.
+  - [X] Calculate the purity of each ball.
+  - [X] Split balls whose purity is below 0.95.
+  - [X] Continue splitting until the purity threshold is satisfied.
+  - [X] Handle edge cases where further splitting is not possible.
   - [ ] Store parent-child relationships between granular balls.
 
 ## Phase 3 — Initial Dataset & Visualisation
 
-- [ ] Generate a synthetic dataset using `sklearn.datasets.make_moons`.
-- [ ] Introduce configurable noise and sample sizes.
-- [ ] Run the GBC implementation on the generated dataset.
-- [ ] Visualise the original dataset.
-- [ ] Visualise the generated granular balls.
-  - [ ] Display ball centres.
-  - [ ] Display ball boundaries/radii.
-  - [ ] Colour-code balls according to their dominant class.
-  - [ ] Display individual data points.
+- [X] Generate a synthetic dataset using `sklearn.datasets.make_moons`.
+- [X] Introduce configurable noise and sample sizes.
+- [X] Run the GBC implementation on the generated dataset.
+- [X] Visualise the original dataset.
+- [X] Visualise the generated granular balls.
+  - [X] Display ball centres.
+  - [X] Display ball boundaries/radii.
+  - [X] Colour-code balls according to their dominant class.
+  - [X] Display individual data points.
 - [ ] Visualise the splitting process and resulting hierarchy.
-- [ ] Verify that ball purity meets the specified threshold wherever splitting is feasible.
+- [X] Verify that ball purity meets the specified threshold wherever splitting is feasible.
 
 ## Phase 4 — GBKNN vs KNN Evaluation
 
