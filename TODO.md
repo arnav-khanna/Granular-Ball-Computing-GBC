@@ -4,15 +4,15 @@ An incremental roadmap for implementing, visualising, and evaluating Granular Ba
 
 ## Phase 1 — Environment & Project Setup
 
-- [ ] Set up the Python development environment.
-- [ ] Install dependencies:
-  - [ ] NumPy
-  - [ ] Pandas
-  - [ ] Matplotlib
-  - [ ] Scikit-learn
-  - [ ] SciPy
-- [ ] Establish the initial project directory structure.
-- [ ] Create a requirements.txt file.
+- [x] Set up the Python development environment.
+- [x] Install dependencies:
+  - [x] NumPy
+  - [x] Pandas
+  - [x] Matplotlib
+  - [x] Scikit-learn
+  - [x] SciPy
+- [x] Establish the initial project directory structure.
+- [x] Create a requirements.txt file.
 
 ## Phase 2 — Basic Granular Ball Computing Implementation
 
