@@ -36,7 +36,7 @@
   - The GBC decomposition, including granular-ball boundaries, centres and membership-purity values.
   - Individual granular-ball membership, with separate colours for each ball.
 - Displayed the visualisation using Matplotlib.
-- Saved the generated figure as `figure_make_moons.png`.
+- Saved the generated figure as `figure.png`.
 
 ### 5. Experimental Results and Documentation
 - Completed the initial experiment using the configured GBC implementation.
@@ -45,7 +45,7 @@
 - Confirmed that every sample was assigned exactly once.
 - Confirmed that no assigned samples fell outside their respective granular-ball boundaries.
 - Completed geometric-purity analysis.
-- Prepared and saved `results_make_moons.md`, documenting:
+- Prepared and saved results, documenting:
   - Experiment configuration.
   - Individual granular-ball statistics.
   - Membership-purity verification.
@@ -74,7 +74,7 @@
 - Initial GBC implementation completed and executed.
 - Recursive spatial K-Means splitting implemented.
 - Results-display and verification functionality implemented separately from the core algorithm.
-- Three-panel visualisation generated and saved as `figure_make_moons.png`.
-- Experimental results documented and saved as `results_make_moons.md`.
+- Three-panel visualisation generated and saved as `experiments/make_moons/figure.png`.
+- Experimental results documented and saved in `experiments/make_moons/README.md`.
 
 **Current milestone:** Initial `make_moons` GBC experiment completed, visualised, verified and documented.
